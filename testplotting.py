@@ -9,7 +9,7 @@ fig = plt.figure()
 ax1 = fig.add_subplot(1,1,1)
 
 def animate(i):
-    pullData = open("/home/harshita/nltk/twitter/twitter.txt","r").read()
+    pullData = open("twitter.txt","r").read()
     lines = pullData.split('\n')
 
     xar = []
